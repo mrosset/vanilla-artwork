@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Vanilla GNU/Linux</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="images/favicon.png" />
+</head>
+
+<body>
+<div id="header">
+  <div id="header_inside">
+    <h1><img src="images/logo.png" /></h1>
+      <ul>
+      <!--<li><a href="about.html">About</a></li>-->
+      <li><a class="active" href="#">Home</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="content">
+  <div id="content_inside">
+    <div id="content_inside_sidebar">
+      <h2>Meet our Team</h2>
+      <ul>
+        <li><a href="#">str1ngs - Development</a></li>
+		<li><a href="#">xtraeme - Development</a></li>
+      </ul>
+
+      <h2>Recommended Links</h2>
+      <ul>
+        <li><a href="https://github.com/xtraeme/vanilla">Vanilla on GitHub</a></li>
+        <li><a href="https://github.com/xtraeme/xbps">XBPS on GitHub</a></li>
+        <li><a href="http://code.google.com/p/xbps/">XBPS on Google Code</a></li>
+      </ul>
+    </div>
+
+    <div id="content_inside_main">
+      <h1>Introduction</h1>
+      <p>Welcome to the homepage of the Vanilla GNU/Linux distribution!</p>
+	  <p>Vanilla GNU/Linux is a new distribution that uses XBPS as its package system, the X Binary Package System has been designed from scratch, please visit <a href="http://code.google.com/p/xbps">http://code.google.com/p/xbps</a> for more information.</p>
+	  <p>Vanilla GNU/Linux is a simple and minimal distribution that can be customized in many ways. Currently there are ~1500 packages in the stable repository that you can build. There is support for i686 and x86_64 architectures, more may be added in the future (i.e. ARM) but it's not a high priority.</p>
+	  <h1>Features</h1>
+	  <ul>
+	    <li>It's not a fork or customized version of any distro, it has been created from scratch making it an extremely lightweight distro. Base install is approximately 150MB.</li>
+		<li>Rolling release.</li>
+		<li>Uses the latest stable Linux kernel. The development snapshot from kernel.org can also be installed in parallel.</li>
+		<li>Kernel images/modules are never removed, providing an always-bootable system.</li>
+		<li>Uses a modified "initramfs-tools" version from Debian to handle initial ramdisk images.</li>
+		<li>Uses a modified &ldquo;casper&rdquo; version from Ubuntu to boot from live images.</li>
+		<li>Uses a modified &ldquo;OpenRC&rdquo; version from Gentoo to handle the init/boot process.</li>
+		<li>Uses /run directory as tmpfs by default, with symlinks to /tmp, /var/tmp, /var/lock, /var/run, /dev/shm.</li>
+		<li>Uses its own binary package system: XBPS -- A faster/leaner alternative to Debian's dpkg/apt, RedHat's RPM, ArchLinux's Pacman, etc.</li>
+		<li>You don't need wrappers of wrappers for the XBPS utils to rebuild/reinstall packages. The provided tools are all that you need.</li>
+		<li>Uses a BSD port-like system to build binary packages in chroot jails without requiring root permissions. This allows building packages as a regular user without interfering with your installed system!</li>
+	  </ul>
+	  <br/>
+      <p>When a new stable XBPS version comes out, a new live image is created for testing purposes along with the minimal base system.</p>
+	  <h1>Get Vanilla</h1>
+	  <p>You can find the Live Images at: <a href="http://code.google.com/p/xbps">http://code.google.com/p/xbps</a>.</p>
+	  <h1>Get Support</h1>
+	  <p>If you have questions or contributions please use the google groups forum: <a href="http://groups.google.com/group/xbps">http://groups.google.com/group/xbps</a>.</p>
+	  <br/>
+	  <p><h3 style="font-weight: bold;">Enjoy and happy hacking!</h3></p>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div id="footer_inside">
+	<div id="footer_center" style="padding-top: 22px;">
+	  <p>Copyright &copy; 2011 Vanilla GNU/Linux</p>
+      <p>The registered trademark Linux® is used pursuant to a sublicense from LMI,<br/>the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
